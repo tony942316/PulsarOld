@@ -1,0 +1,3 @@
+[submodule "include/dependencies/Equinox"]
+	path = include/dependencies/Equinox
+	url = git@github.com:tony942316/Equinox.git
