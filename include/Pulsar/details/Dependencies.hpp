@@ -18,6 +18,12 @@
 #ifndef PULSAR_DETAILS_DEPENDENCIES_HPP
 #define PULSAR_DETAILS_DEPENDENCIES_HPP
 
+// Equinox Header Only Library
+#include "../../dependencies/Equinox/include/Equinox.hpp"
 
+// SDL2 Graphics Library
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_image.h>
 
 #endif // PULSAR_DETAILS_DEPENDENCIES_HPP
