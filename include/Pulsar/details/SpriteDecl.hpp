@@ -15,15 +15,26 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#ifndef PULSAR_HPP
-#define PULSAR_HPP
+#ifndef PULSAR_DETAILS_SPRITEDECL_HPP
+#define PULSAR_DETAILS_SPRITEDECL_HPP
 
-#include "Pulsar/Mouse.hpp"
-#include "Pulsar/Window.hpp"
-#include "Pulsar/Texture.hpp"
-#include "Pulsar/Sprite.hpp"
-#include "Pulsar/Text.hpp"
-//#include "Pulsar/Entity.hpp"
-//#include "Pulsar/AccEntity.hpp"
+#include "Dependencies.hpp"
 
-#endif // PULSAR_HPP
+#include "../Texture.hpp"
+
+namespace pul
+{
+    /**
+     *
+     */
+    class Sprite : public Texture
+    {
+    public:
+        /**
+         *
+         */
+        inline void loadAsset(std::string_view spritePath) noexcept;
+    };
+}
+
+#endif // PULSAR_DETAILS_SPRITEDECL_HPP
