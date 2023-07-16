@@ -18,8 +18,8 @@
 #ifndef PULSAR_HPP
 #define PULSAR_HPP
 
-//#include "Pulsar/Mouse.hpp"
-//#include "Pulsar/Window.hpp"
+#include "Pulsar/Mouse.hpp"
+#include "Pulsar/Window.hpp"
 //#include "Pulsar/Texture.hpp"
 //#include "Pulsar/Sprite.hpp"
 //#include "Pulsar/Text.hpp"

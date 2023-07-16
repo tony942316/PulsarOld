@@ -14,11 +14,3 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-
-#ifndef PULSAR_WINDOW_HPP
-#define PULSAR_WINDOW_HPP
-
-// Declarations in "details/WindowDecl.hpp"
-#include "details/WindowImpl.ipp"
-
-#endif // PULSAR_WINDOW_HPP

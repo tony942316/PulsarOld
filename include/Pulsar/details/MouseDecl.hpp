@@ -37,6 +37,9 @@ namespace pul
             Down
         };
 
+        /**
+         *
+         */
         Mouse() = delete;
         Mouse(const Mouse&) = delete;
         Mouse(Mouse&&) = delete;
