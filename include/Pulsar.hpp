@@ -23,7 +23,7 @@
 #include "Pulsar/Texture.hpp"
 #include "Pulsar/Sprite.hpp"
 #include "Pulsar/Text.hpp"
-//#include "Pulsar/Entity.hpp"
-//#include "Pulsar/AccEntity.hpp"
+#include "Pulsar/Entity.hpp"
+#include "Pulsar/AccEntity.hpp"
 
 #endif // PULSAR_HPP
